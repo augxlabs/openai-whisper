@@ -2,6 +2,6 @@ version: "3.7"
 services:
   operator:
     build: .
-    image: python_template:0.1.0
+    image: openai_whisper:0.1.0
     volumes: 
       - ${PWD}:/usr/app/src/
