@@ -1,0 +1,10 @@
+build:
+  gpu: false
+  system_packages:
+    - "ffmpeg"
+  python_version: "3.8"
+  python_packages:
+    - "transformers[torch]==4.22.1"
+    - "ffmpeg-python==0.2.0"
+    - "git+https://github.com/openai/whisper.git"
+predict: "predict.py:Predictor"
